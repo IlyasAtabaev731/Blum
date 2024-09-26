@@ -6,9 +6,9 @@
 // @match        https://telegram.blum.codes/*
 // @grant        none
 // @icon         https://cdn.prod.website-files.com/65b6a1a4a0e2af577bccce96/65ba99c1616e21b24009b86c_blum-256.png
-// @downloadURL  https://github.com/mudachyo/Blum/raw/main/blum-autoclicker.user.js
-// @updateURL    https://github.com/mudachyo/Blum/raw/main/blum-autoclicker.user.js
-// @homepage     https://github.com/mudachyo/Blum
+// @downloadURL  https://github.com/IlyasAtabaev731/Blum/raw/main/blum-autoclicker.user.js
+// @updateURL    https://github.com/IlyasAtabaev731/Blum/raw/main/blum-autoclicker.user.js
+// @homepage     https://github.com/IlyasAtabaev731/Blum
 // ==/UserScript==
 
 let GAME_SETTINGS = {
@@ -17,7 +17,7 @@ let GAME_SETTINGS = {
     flowerSkipPercentage: Math.floor(Math.random() * 11) + 15,
     minDelayMs: 2000,
     maxDelayMs: 5000,
-    autoClickPlay: false
+    autoClickPlay: true
 };
 
 let isGamePaused = false;
